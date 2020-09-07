@@ -1,0 +1,120 @@
+body {
+    display: flex;
+    background: rgb(41, 40, 40);
+    flex-direction: column;
+}
+h1 {
+    width: fit-content;
+    color: green;
+}
+.startsida {
+    font-size: xx-large;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+
+.startsida:hover {
+    color: purple;
+    transform: scale(1.2);
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: green;
+    padding: 20px;
+    padding-left: 30px;
+    align-items: baseline;
+    width: 100%;
+    
+}
+
+.menuItem {
+    color:black;
+    font-size: x-large;
+    margin-left: 50px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.menuItem:hover {
+    color: purple;
+    transform: scale(1.2);
+
+}
+.sidInfo {
+    display: flex;
+    
+}
+
+h2{
+    color: green;
+    margin: 50px;
+    margin-bottom: -20px;
+}
+p{
+    color: white;
+}
+
+img{
+    width: 500px;
+}
+
+#information {
+    width: 500px;
+}
+footer {
+    display: flex;
+    position: absolute;
+    bottom:0;
+    width:100%;
+    height:60px;   /* Height of the footer */
+    background:green;
+    justify-content: center;
+}
+
+.infoOmMig {
+    display: flex;
+
+
+}
+
+#infoOmMig {
+    width: 500px;
+    margin: 50px;
+}
+
+#selfie {
+    width: 200px;
+    height: 300px;
+}
+
+#Uma {
+    height: 300px;
+    width: 300px;
+    
+}
+
+.kontaktinfo {
+    margin: 50px;
+}
+
+
+.portfolioContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.projekt1, .projekt2 {
+    display: flex;
+    width: auto;
+    height: 200px;
+    margin: 50px;
+    border: green solid 2px;
+    
+}
+
+.portfolioText{
+    margin-left: 20px;
+    flex-grow: 2;
+}
